@@ -6,7 +6,7 @@ tools{
 stages{
    stage('Checkout'){
       steps{
-         git branch:master,url:'https://github.com/bitcsedevops05/MavenApp.git'
+         git branch:master,url:'https://github.com/Hemanth-Gowda-C/MyMavenApp.git'
       }
    }
    stage('Build'){
